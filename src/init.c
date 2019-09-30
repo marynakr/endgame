@@ -19,6 +19,7 @@ void init_win(t_App *app) {
         mx_printerr("\n");
         SDL_Quit();
 	    exit(1);
+
     }
 
     // create a renderer, which sets up the graphics hardware
